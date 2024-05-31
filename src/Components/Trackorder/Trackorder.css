@@ -1,0 +1,126 @@
+.Trackorder-full-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+
+
+.track-order-images {
+    margin-top: 70px;
+    box-shadow: 0px 0px 2px 0px ;
+}
+.track-order-images img{
+width: 590px;
+height: 360px;
+}
+
+/* .trackorder-cover{
+    box-shadow: 1px 1px 6px 1px;
+} */
+.track-order-details{
+    margin-top: 70px;
+}
+.input-data{
+    background-color: rgba(245, 245, 245, 0.957);
+    padding: 60px 50px;
+    width: 600px;
+    
+   
+}
+.track-order-heading h2{
+    font-family: ubantu, sans-serif;
+    font-weight: 700;
+}
+.track-order-heading h6{
+    font-family: ubantu, sans-serif;
+}
+.track-order-input-data{
+    margin: 15px 0;
+}
+.track-order-input-data input{
+   width: 400px;
+   padding: 6px 10px;
+   text-decoration: none;
+}
+.track-order-input-data input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+.track-order-email input{
+    width: 400px;
+    padding: 6px 10px;
+ }
+.track-order-input-data input placeholder{
+    padding-left: 100px;
+}
+ input::-moz-placeholder{
+    padding-left: 10px;
+ }
+ .login-link{
+    display: flex;
+    gap: 100px;
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+ }
+ .login-link h6{
+    font-family: ubantu, sans-serif;
+    cursor: pointer;
+    
+ }
+ .login-link h6:hover{
+   text-decoration: underline;
+ }
+ .login-link button{
+    padding: 6px 20px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+ }
+ @media (max-width:426px) {
+    .Trackorder-full-page{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+    .track-order-images{
+        margin-left: 90px;
+    }
+    .track-order-images img{
+        width: 350px;
+        height: 200px;
+       
+        
+
+    }
+    .track-order-details{
+        width: 100px;
+    }
+    .input-data{
+        width: 350px;
+        margin-left: -80px;
+        margin-top: -67px;
+    }
+    .track-order-input-data input{
+        width: 300px;
+        margin-left: -30px;
+    }
+    .track-order-email input{
+        width: 300px;
+        margin-left: -30px;
+    }
+    .login-link{
+        width: 400px;
+        margin-left: -80px;
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+    }
+ }
+
+

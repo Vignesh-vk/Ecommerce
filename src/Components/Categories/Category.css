@@ -1,0 +1,25 @@
+.section-2-Brand-logo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 80px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.brands-icons{
+    box-shadow: 0.5px 0.3px 2px 0.2px;
+    padding: 14px 17px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.brands-icons img{
+    width: 100px;
+    height: 70px;
+
+}
+.brands-icons:hover{
+    box-shadow: 1px 1px 8px 1px;
+    
+}

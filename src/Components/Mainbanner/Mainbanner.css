@@ -1,0 +1,76 @@
+.Mainbanner {
+  display: flex;
+  gap: 5px;
+  position: relative;
+}
+@media (max-width:440px) {
+  .Mainbanner{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.mainbannerone {
+  width: 730px;
+  height: 466px;
+  position: relative;
+}
+
+.banner1 {
+  width: 730px;
+  position: relative;
+}
+
+.banner1 img {
+  width: 730px;
+  height: 465px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width:450px)  {
+  .mainbannerone {
+    width: 390px;
+    height: 250px;
+    
+  }
+  .slider-container{
+    width: 390px;
+  }
+  .banner1{
+    width: 390px;
+    height: 250px;
+    position: relative;
+  }
+  .banner1 img {
+    width: 390px;
+    height: 250px;
+  }}
+  @media  (max-width:440px){
+  .Mainbanner2 .sticky-banner img{
+    width: 390px
+  }  
+  .Mainbanner3 .sticky-banner2 img{
+    width: 390px;
+  }  
+  
+  
+}
+.Mainbanner2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.sticky-banner img {
+  width: 520px;
+  height: 270px;
+  background-repeat: no-repeat;
+  background-size :cover;
+  background-position: 10px;
+}
+.sticky-banner2 img {
+  width: 520px;
+  height: 190px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,211 @@
+.footer-all-deatils {
+  display: flex;
+  justify-content: space-around;
+  background-color: whitesmoke;
+  color: black;
+  margin-top: 30px;
+  padding-top: 50px;
+  position: relative;
+  height: 400px;
+}
+@media (max-width: 428px) {
+  .footer-all-deatils {
+    height: 800px;
+    width: 100px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 0px;
+  }
+  .full-div{
+    position: relative;
+  }
+  .footer-logo-div p {
+    width: 290px;
+    align-items: center;
+    margin-left: 50px;
+  }
+  .footer-navbar-logo img {
+    width: 80px;
+    display: flex;
+    margin-left: 130px;
+    mix-blend-mode: multiply;
+  }
+  .footer-navbar-logo h6 {
+    margin-left: 120px;
+
+
+  }
+  .footer-cloths-menu {
+    margin-left: -135px;
+  }
+  
+  .about-comunity {
+    margin-left: -185px;
+    margin-top: 100px;
+  }
+  .about-company {
+    margin-left: -150px;
+    margin-top: -10px;
+    
+  }
+}
+.full-div{
+  position: relative;
+}
+.footer-navbar-logo img {
+  width: 80px;
+  mix-blend-mode: multiply;
+}
+
+.main-footer-div {
+  position: relative;
+}
+
+.footer-logo-div {
+  padding-left: 0px;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+.Textcolor {
+  line-height: -20px;
+}
+.footer-logo-div {
+  line-height: -20px;
+  position: relative;
+}
+.footer-logo-div h2 {
+  font-weight: 900;
+  font-size: 25px;
+  position: relative;
+}
+
+.footer-logo-div hr {
+  width: 100px;
+  margin-left: 5px;
+  border: 1.5px solid;
+  background-color: black;
+  position: absolute;
+  top: 17px;
+}
+.footer-logo-div p {
+  width: 290px;
+}
+
+.footer-list-payment {
+  position: absolute;
+  top: 250px;
+  left: 460px;
+}
+
+@media (max-width: 426px) {
+  .footer-list-payment {
+    position: absolute;
+    top: 550px;
+    left: 170px;
+    display: flex;
+    
+    width: 100px;
+  }
+  .footer-list-payment img {
+    width: 130px;
+  }
+  .newletter-input {
+    position: absolute;
+    top: 100px;
+
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-news-letteremail {
+    position: relative;
+    top: 540px;
+    left: -40px;
+
+    width: 100%;
+    font-size: 10px;
+  }
+  .footer-news-letteremail button {
+    width: 100px;
+  }
+  .social-media-icons{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+  }
+  .socialmedia-icon {
+    position: relative;
+    top: 700px;
+    display: none;
+    
+    
+  }
+  .footer-company-heading h4 {
+    font-weight: 500;
+    font-size: 15px;
+  }
+}
+
+.footer-list-payment ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.footer-list-menu {
+  margin-inline-start: -30px;
+  list-style: none;
+  font-family: ubantu, sans-serif;
+}
+
+.footer-company-heading h4 {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.newletter-input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+  left: 80px;
+
+  gap: 600px;
+}
+.social-media-icons a {
+  margin: 0px 20px;
+  font-size: 5px;
+}
+.social-media-icons img {
+  width: 40px;
+  mix-blend-mode: multiply;
+  border-radius: 60%;
+
+  position: absolute;
+  background-color: transparent;
+  background-image: none;
+}
+
+.footer-news-letteremail {
+  gap: 20px;
+  margin-top: 100px;
+}
+.footer-news-letteremail button {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 2px 14px;
+  border: none;
+  padding: 7px 15px;
+  outline: none;
+}

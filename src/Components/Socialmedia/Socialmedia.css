@@ -1,0 +1,98 @@
+
+.full-insta-details{
+    margin-top: 36px;
+    height: 200px;
+    background-color: rgba(255, 192, 203, 0.199);
+}
+.section1-insta{
+    text-align: center;
+    padding: 39px 30px;
+    
+}
+.section1-insta h4{
+    font-family: ubantu, sans-serif;
+    font-weight: bold;
+}
+.section1-insta h3{
+    font-family: "Lobster", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+.socialmedia-images{
+    display: flex;
+    align-items: center ;
+    overflow: hidden;
+    white-space: nowrap;
+    padding:  0px 0px;
+    
+
+}
+@media (max-width:426px) {
+    .socialmedia-images{
+         width: auto;
+    }
+    .cloths-images{
+        width: auto;
+    }
+    .cloths-images .my-pics{
+        width: 100px;
+        height: 100px;
+    }
+    .delivery-details-all-data {
+        width: 350px;
+        
+    }
+    .delivery-details {
+        width: 130px;
+    }
+}
+.cloths-images {
+    display: inline-block;
+    margin-right: 0px;
+    animation: move-rtl 10s linear infinite;
+    /* margin: 0; */
+}
+
+
+.cloths-images img{
+    width: 270px;
+    height: 280px;
+}
+
+@keyframes move-rtl {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+
+  
+}
+
+
+
+.delivery-details-all-data{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: rgba(255, 192, 203, 0.199);
+}
+.delivery-details{
+  padding: 70px 20px;
+  position: relative;
+}
+
+.delivery-details::before{
+    content: '';
+    width: 28%;
+    margin-left: 40px;
+    height: 3px;
+    /* z-index: 1; */
+    background-color: black;
+    position: absolute;
+    top: 40px;
+}
